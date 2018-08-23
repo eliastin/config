@@ -1,5 +1,5 @@
 example:
-  property: "I AM IN THE DEFAULT 4"
+  property: "I AM IN THE DEFAULT 5"
 spring:
   jpa:
     database: mysql
