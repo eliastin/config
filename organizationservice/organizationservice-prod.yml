@@ -1,0 +1,22 @@
+example:
+  property: "I AM IN THE PRODUCTION"
+spring:
+  jpa:
+    database: mysql
+    hibernate:
+      generate-ddl: true
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+          show_sql: true
+  datasource:
+    driverClassName: "com.mysql.jdbc.Driver"
+    url: "jdbc:mysql://localhost:3306/eagle-eye-prod?useSSL=false"
+    username: "root"
+    password:
+redis:
+  server: "redis"
+  port: "6379"
+signing:
+  key: "345345fsdfsf5345"

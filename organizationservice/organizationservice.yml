@@ -1,0 +1,19 @@
+example:
+  property: "I AM IN THE DEFAULT 5"
+spring:
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driverClassName: "com.mysql.jdbc.Driver"
+    url: "jdbc:mysql://localhost:3306/eagle-eye?useSSL=false"
+    username: "root"
+    password:
+redis:
+  server: "redis"
+  port: "6379"
+signing:
+  key: "345345fsdfsf5345"
+eureka:
+  server-url: http://localhost:8761/eureka/
