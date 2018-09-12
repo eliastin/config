@@ -3,4 +3,4 @@ zuul:
     organizationservice: /organization/**
     licensingservice: /licensing/**
   ignored-services: '*'
-  prefix: /ap
+  prefix: /api
