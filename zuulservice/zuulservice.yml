@@ -4,3 +4,4 @@ zuul:
     licensingservice: /licensing/**
   ignored-services: '*'
   prefix: /api
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 3000
