@@ -5,3 +5,5 @@ zuul:
   ignored-services: '*'
   prefix: /api
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 3000
+licensingservice.ribbon.ReadTimeout: 7000
+
