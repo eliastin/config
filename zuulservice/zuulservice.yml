@@ -4,6 +4,7 @@ zuul:
     licensingservice: /licensing/**
   ignored-services: '*'
   prefix: /api
+  sensitiveHeaders: Cookie,Set-Cookie
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 3000
 licensingservice.ribbon.ReadTimeout: 7000
 
